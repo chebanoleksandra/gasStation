@@ -1,0 +1,73 @@
+#gasStation {
+    width: 500px;
+    height: 300px;
+    background-color: midnightblue;
+    padding: 10px 30px;
+}
+
+h2,
+p {
+    display: inline-block;
+}
+
+label {
+    display: block;
+}
+
+h2,
+p,
+label,
+input,
+button,
+select {
+    color: skyblue;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+}
+
+input,
+button,
+select,
+#price,
+#sum {
+    background-color: rgb(5, 5, 53);
+    color: gold;
+}
+
+#price,
+#sum
+{
+    width: 90px;
+    height: 25px;
+    text-align: center;
+}
+button {
+    color: skyblue;
+    width: 80px;
+    height: 40px;
+    margin-left: 185px;
+}
+
+#currencyDiv label {
+    display: inline-block;
+}
+
+#info {
+    border-bottom: 4px solid rgb(5, 5, 53);
+}
+
+#priceH2 {
+    margin-left: 120px;
+}
+
+#payment h2, #payment p, #payment label{
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+#paymentH2 {
+    font-size: 28px;
+}

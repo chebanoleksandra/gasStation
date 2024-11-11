@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Gas Station Cheban</title>
+</head>
+
+<body>
+    <form id="gasStation">
+        <div id="info">
+            <label>Type of fuel: <select name="typeOfFuel" id="typeOfFuel">
+                    <option  data-value="diesel">DIESEL</option>
+                    <option data-value="e95s">E95S</option>
+                    <option data-value="a92">A92</option>
+                    <option data-value="a95">A95</option>
+                </select>
+                <h2 id="priceH2">Price: </h2>
+                <p id="price">52.89</p>
+            </label>
+            <label>Amount: <input type="number" name="amount" id="amount" step="0.5" min="1" max="100" value="1">
+                <p>L</p>
+            </label>
+        </div>
+        <div id="payment">
+            <h2 id="paymentH2">Payment:</h2>
+            <div id="currencyDiv">
+                <h2>Currency: </h2>
+                <label><input type="radio" name="currency" value="uah" checked="true">UAH</label>
+                <label><input type="radio" name="currency" value="euro">EUR</label>
+                <label><input type="radio" name="currency" value="usd">USD</label>
+            </div>
+            <h2>Sum: </h2>
+            <p id="sum">00.00</p>
+            <button id="OKBtn">OK</button>
+        </div>
+    </form>
+    <script src="./main.js"></script>
+</body>
+
+</html>
